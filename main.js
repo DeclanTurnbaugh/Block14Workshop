@@ -52,3 +52,11 @@ for (let i = 0; i < vowelArr.length; i++) {
 console.log(
   `${stringInput} has ${consCount} consonants and ${vowelCount} vowels.`
 );
+
+/* Reverse Array
+With a for loop, create a JavaScript code that creates a new array in reverse order.*/
+
+const forewardArr = [1, -1, 2, -3, 5, -8, 13];
+const reverseArr = forewardArr.reverse();
+
+console.log(reverseArr);
