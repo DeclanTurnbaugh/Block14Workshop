@@ -60,3 +60,17 @@ const forewardArr = [1, -1, 2, -3, 5, -8, 13];
 const reverseArr = forewardArr.reverse();
 
 console.log(reverseArr);
+
+// Fizz Buzz
+
+for (let i = 1; i < 101; i++) {
+  let output = i + " ";
+  if (i % 3 === 0) {
+    output += "Fizz";
+  }
+  if (i % 5 === 0) {
+    output += "Buzz";
+  }
+  console.log(output);
+}
+
